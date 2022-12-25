@@ -24,7 +24,8 @@ app.use((req, res, next) => {
     next();
 });
 
-
+var cors = require('cors');
+app.use(cors());
 // body parser configuration
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
