@@ -3,8 +3,5 @@
   "name": "name-of-your-vercel-app",
   "builds": [
     { "src": "index.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { }
   ]
 }
